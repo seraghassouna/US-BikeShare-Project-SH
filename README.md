@@ -4,3 +4,6 @@ ____
 The data are tabulated in csv file, one file per city .. every city has tabulated form where each row represents a bike trip, and with columns such as {start station, end station,
 start date/time, end date/time, ...etc}
 The user can aquire statistical data about filtered options which are {city, week day, month}.
+____
+Download CSV files from the following link (files > 25 MB)
+https://drive.google.com/drive/folders/1H4i9jrPx5akNu9ZynpGodxJinvZdvt8V?usp=sharing
