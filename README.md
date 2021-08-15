@@ -6,4 +6,5 @@ start date/time, end date/time, ...etc}
 The user can aquire statistical data about filtered options which are {city, week day, month}.
 ____
 Download CSV files from the following link (files > 25 MB)
+
 https://drive.google.com/drive/folders/1H4i9jrPx5akNu9ZynpGodxJinvZdvt8V?usp=sharing
