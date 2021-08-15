@@ -1,0 +1,44 @@
+Here, are the resources of modules and methods used in the Bikeshare US project.
+The methods that are mentioned within the context of this course and not needed to
+be demonstrated (due to their clarity) are not mentioned here.
+The most intuitively known methods such as {min,max,mode} are not mentioned.
+__________________________
+[1] "datetime" python module
+
+URL: https://docs.python.org/3/library/datetime.html
+Description:
+The used object is of class datetime.datetime that restores year, month, day, hour
+,minute and second. millisecond was not used
+The used method is
+(1) datetime.datetime.weekday(): Returns the day of the week as an integer, where Monday is 0 and Sunday is 6.
+
+- - - - - - -
+[2] "pandas" package methods
+
+(1) pandas.DataFrame.apply()
+URL: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.apply.html
+Description:
+This method is of great advantage .. it was used to apply custom functions (aka. utility functions)
+onto selected columns from the dataframe of interest.
+It works simillar to the ordinary "map" function in python.
+
+(2) pandas.DataFrame.describe()
+URL: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.describe.html
+Description:
+Mainly used with categorical data to extract the most commonly occured value (index:'top')
+and its frequency (index: 'freq').
+
+(3) pandas.DataFrame.value_counts()
+URL: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.value_counts.html
+Description:
+Used to return the number of occurences of each unique value in a column.
+
+- - - - - - -
+[3] python library
+
+(1) divmod()
+URL: https://stackoverflow.com/a/775075
+or
+https://stackoverflow.com/questions/775049/how-do-i-convert-seconds-to-hours-minutes-and-seconds
+Description:
+used to calculate the time in hours, minutes and seconds for the input of only seconds.
